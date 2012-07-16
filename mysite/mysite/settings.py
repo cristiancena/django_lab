@@ -105,7 +105,9 @@ ROOT_URLCONF = 'mysite.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
+#esta variable indica al mecanismo de carga de plantillas donde buscar las plantillas
 TEMPLATE_DIRS = (
+    '/home/cristian/workspace/django_lab/mysite/templates',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
