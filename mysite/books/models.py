@@ -11,17 +11,20 @@ class Publisher(models.Model):
 	state_province 	= models.CharField(max_length=30)
 	country 		= models.CharField(max_length=50)
 	website 		= models.URLField()
+	#headshot 		= models.ImageField(upload_to='tmp')
 	def __str__(self):
 		return self.name
+	class Admin:
+		list_display = ('name','city','website')
 
 class Author(models.Model):
     salutation 		= models.CharField(max_length=10)
     first_name 		= models.CharField(max_length=30)
     last_name 		= models.CharField(max_length=40)
     email 			= models.EmailField()
-    headshot 		= models.ImageField(upload_to='/tmp')
     def __str__(self):
     	return '%s%s'% (self.first_name, self.last_name)
+
 
 class Book(models.Model):
 	title 			= models.CharField(max_length=100)

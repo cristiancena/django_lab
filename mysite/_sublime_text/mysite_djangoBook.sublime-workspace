@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"max_length"
+			],
+			[
 				"current",
 				"current_date"
 			]
@@ -11,6 +15,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/cristian/workspace/django_lab/mysite/books/models.py",
+			"settings":
+			{
+				"buffer_size": 1042,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cristian/workspace/django_lab/mysite/mysite/urls.py",
+			"settings":
+			{
+				"buffer_size": 1029,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -52,18 +72,31 @@
 	},
 	"file_history":
 	[
+		"/home/cristian/Escritorio/JULI.txt",
+		"/home/cristian/workspace/django_lab/recetario/recetario/settings.py",
+		"/home/cristian/workspace/django_lab/mysite/mysite/urls.py",
+		"/home/cristian/workspace/django_lab/mysite/books/admin.py",
+		"/home/cristian/workspace/django_lab/recetario/recetario/urls.py",
+		"/home/cristian/workspace/django_lab/mysite/books/models.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/models.py",
+		"/home/cristian/workspace/django_lab/recetario/recetario/__init__.py",
+		"/home/cristian/workspace/django_lab/recetario/recetario/wsgi.py",
+		"/home/cristian/workspace/django_lab/mysite/mysite/settings.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/admin.py",
+		"/home/cristian/workspace/django_lab/mysite/templates/base.html",
+		"/home/cristian/workspace/django_lab/mysite/books/tests.py",
+		"/home/cristian/workspace/django_lab/mysite/books/views.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/views.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/models.pyc",
+		"/home/cristian/workspace/django_lab/recetario/recetario/settings.pyc",
 		"/home/cristian/workspace/django_lab/mysite/templates/menu.html",
 		"/home/cristian/workspace/django_lab/mysite/templates/hours_ahead.html",
-		"/home/cristian/workspace/django_lab/mysite/templates/base.html",
 		"/home/cristian/workspace/django_lab/mysite/templates/current_datetime.html",
-		"/home/cristian/workspace/django_lab/mysite/mysite/urls.py",
 		"/home/cristian/workspace/django_lab/mysite/mysite/views.py",
-		"/home/cristian/workspace/django_lab/mysite/mysite/settings.py",
 		"/home/cristian/.config/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings",
 		"/home/cristian/.config/sublime-text-2/Packages/User/GitHub.sublime-settings",
 		"/media/Drivers/Leeme.txt",
 		"/home/cristian/workspace/django_lab/django_book/readme.txt",
-		"/home/cristian/workspace/django_lab/recetario/principal/admin.py",
 		"/home/cristian/workspace/node_lab/express_holamundo/app.js",
 		"/home/cristian/.ssh/id_rsa.pub"
 	],
@@ -83,6 +116,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"recetas",
+			"principal",
+			"books",
 			"html",
 			"de"
 		],
@@ -102,8 +138,63 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/cristian/workspace/django_lab/mysite/books/models.py",
+					"settings":
+					{
+						"buffer_size": 1042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cristian/workspace/django_lab/mysite/mysite/urls.py",
+					"settings":
+					{
+						"buffer_size": 1029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								508,
+								508
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
