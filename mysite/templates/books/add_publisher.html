@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}add publisher{% endblock %}
+
+{% block content %}
+	<h1>Agregando publishers</h1>
+	<form action="." method="POST">
+		{% csrf_token %}
+		<table>
+			{{ form.as_table }}
+		</table>	
+		<p><input type="reset" value="limpiar"><input type="submit" value="Submit"/></p>
+	</form>
+
+	{% if informacion%}
+		<br>
+		<hr>
+		<br>
+		{{ informacion }}
+	{% endif %}
+{% endblock %}

@@ -1,16 +1,47 @@
 <html>
 <head>
 	<title>{% block title %}{% endblock%}</title>
+	<style>
+		body{
+			background: #cacaca;
+		}
+		.wrap{
+			width:95%;
+			margin:0.5em;
+			background: white;
+		}
+		.block{
+			background: #707070;
+			color: white;
+			padding: 1em;
+		}
+
+		/*========================================*/
+		
+		ul.errorlist {
+			margin: 0;
+			padding: 0;
+		}
+		.errorlist li {
+			background-color: red;
+			color: white;
+			display: block;
+			font-size: 10px;
+			margin: 0 0 3px;
+			padding: 4px 5px;
+		}
+	</style>
 </head>
 <body>
-	{% include 'menu.html' %}
-	<hr/>
-	<p>cristian | cristian_cena@hotmail.com | cristian</p>
-	<h1>My helpful timestamp site</h1>
-	{% block content %}{% endblock %}
-	{% block footer %}
-	<hr/>
-	<p>Gracias por visitar mi sitio.</p>
-	{% endblock %}
+	<div class="wrap">
+		{% include 'menu.html' %}
+		<div class="block">
+		<!-- <p>cristian | cristian_cena@hotmail.com | cristian</p> -->
+		{% block content %}{% endblock %}
+		{% block footer %}
+		</div>
+		<p>&copy; creative commons - Footer.</p>
+		{% endblock %}
+	</div>
 </body>
 </html>

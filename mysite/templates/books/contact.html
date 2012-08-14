@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}contact us{% endblock %}
+
+{% block content %}
+<form action="." method="POST">
+	<!--<table>
+		{{ form.as_table }}
+		form es nuestra instancia de ContactForm que fue pasada al render_to_response
+		as_table es un método de ese objeto que reproduce el formulario comom una secuencia de renglones de una tabla (también: as_ul, as_p)
+		Estas soluciones están bien para probar cosas rápido pero no para producción.
+	</table> -->
+	<div class="fieldWrapper">
+		{{ form.topic.errors }}
+		<label for='id_topic'>Kind of feedback:</label>
+		{{ form.topic|escape }}
+	</div>
+	<div class="fieldWrapper">
+		{{ form.message.errors }}
+		<label for='id_message'>Your message:</label>
+		{{ form.message|escape }}
+	</div>
+	<div class="fieldWrapper">
+		{{ form.sender.errors }}
+		<label for='id_sender'>Your email(optional):</label>
+		{{ form.sender|escape }}
+	</div>
+	<p><input type="submit" value="Submit"/></p>
+</form>
+<!--
+Las tags <table> y <form> no se incluyen por lo que debemos colocarlas nosotros
+-->
+<b>Este momento: </b> 
+{% endblock %}
+

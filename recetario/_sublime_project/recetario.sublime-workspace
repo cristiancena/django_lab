@@ -44,6 +44,7 @@
 	},
 	"file_history":
 	[
+		"/usr/local/lib/python2.7/dist-packages/Django-1.4-py2.7.egg/django/contrib/admin/templates/admin/base_site.html",
 		"/home/cristian/workspace/django_lab/django_book/readme.txt",
 		"/home/cristian/workspace/django_lab/recetario/principal/admin.py",
 		"/home/cristian/workspace/node_lab/express_holamundo/app.js",
@@ -138,7 +139,7 @@
 		[
 			[
 				"",
-				"/home/cristian/workspace/django_lab/recetario/_sublime_project/untitle.sublime-project"
+				"/home/cristian/workspace/django_lab/mysite/_sublime_text/mysite_djangoBook.sublime-project"
 			]
 		],
 		"width": 380.0

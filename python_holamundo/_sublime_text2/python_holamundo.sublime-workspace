@@ -1,0 +1,356 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"se",
+				"self"
+			],
+			[
+				"list",
+				"listaDePalos"
+			],
+			[
+				"cliente",
+				"cliente"
+			],
+			[
+				"precio",
+				"precio_final"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"Author",
+				"AuthorAdmin"
+			],
+			[
+				"ma",
+				"max_length"
+			],
+			[
+				"current",
+				"current_date"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/cristian/workspace/django_lab/python_holamundo/naipes/carta.py",
+			"settings":
+			{
+				"buffer_size": 1512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cristian/workspace/django_lab/python_holamundo/naipes/mazo.py",
+			"settings":
+			{
+				"buffer_size": 2213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cristian/workspace/django_lab/python_holamundo/naipes/mano.py",
+			"settings":
+			{
+				"buffer_size": 1759,
+				"line_ending": "Unix",
+				"name": "mano.py"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"html dj",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"GitHub: Open Gist in Editor"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/cristian/workspace/django_lab/python_holamundo/naipes/objetos.py",
+		"/home/cristian/workspace/django_lab/python_holamundo/objetos.py",
+		"/home/cristian/workspace/django_lab/python_holamundo/clases.py",
+		"/home/cristian/workspace/django_lab/python_holamundo/hola.css",
+		"/home/cristian/workspace/django_lab/python_holamundo/hola.py",
+		"/home/cristian/workspace/django_lab/mysite/kiosco/models.py",
+		"/home/cristian/workspace/django_lab/mysite/books/admin.py",
+		"/home/cristian/workspace/django_lab/mysite/books/models.py",
+		"/home/cristian/workspace/django_lab/mysite/kiosco/admin.py",
+		"/home/cristian/workspace/django_lab/mysite/mysite/settings.py",
+		"/home/cristian/workspace/django_lab/mysite/mysite/urls.py",
+		"/home/cristian/workspace/django_lab/mysite/turismo/models.py",
+		"/home/cristian/workspace/django_lab/mysite/templates/menu.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/contact.html",
+		"/home/cristian/workspace/django_lab/mysite/books/views.py",
+		"/home/cristian/workspace/django_lab/mysite/books/forms.py",
+		"/home/cristian/workspace/node_lab/express_holamundo/app.js",
+		"/home/cristian/Escritorio/notas.txt",
+		"/home/cristian/Descargas/djangoBook/2.0_ENG/index/The Django Book: Version 2.0 (English).html",
+		"/etc/modprobe.d/alsa-base.conf",
+		"/home/cristian/workspace/django_lab/mysite/templates/books/search.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/search.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/hours_ahead.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/current_datetime.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/base.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/books.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/admin/index.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/admin/500.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/admin/base.html",
+		"/home/cristian/workspace/django_lab/mysite/templates/admin/base_site.html",
+		"/home/cristian/Escritorio/JULI.txt",
+		"/home/cristian/workspace/django_lab/recetario/recetario/settings.py",
+		"/home/cristian/workspace/django_lab/recetario/recetario/urls.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/models.py",
+		"/home/cristian/workspace/django_lab/recetario/recetario/__init__.py",
+		"/home/cristian/workspace/django_lab/recetario/recetario/wsgi.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/admin.py",
+		"/home/cristian/workspace/django_lab/mysite/books/tests.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/views.py",
+		"/home/cristian/workspace/django_lab/recetario/principal/models.pyc",
+		"/home/cristian/workspace/django_lab/recetario/recetario/settings.pyc",
+		"/home/cristian/workspace/django_lab/mysite/mysite/views.py",
+		"/home/cristian/.config/sublime-text-2/Packages/sublime-github/GitHub.sublime-settings",
+		"/home/cristian/.config/sublime-text-2/Packages/User/GitHub.sublime-settings",
+		"/media/Drivers/Leeme.txt",
+		"/home/cristian/workspace/django_lab/django_book/readme.txt",
+		"/home/cristian/.ssh/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#=======================================#\n",
+			"for",
+			"\")\n",
+			"compra1",
+			"0",
+			"books",
+			"style",
+			"recetas",
+			"principal",
+			"books",
+			"html",
+			"de"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/cristian/workspace/django_lab/python_holamundo/naipes/carta.py",
+					"settings":
+					{
+						"buffer_size": 1512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1499,
+								1499
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 484.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cristian/workspace/django_lab/python_holamundo/naipes/mazo.py",
+					"settings":
+					{
+						"buffer_size": 2213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2181,
+								2181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 705.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/cristian/workspace/django_lab/python_holamundo/naipes/mano.py",
+					"settings":
+					{
+						"buffer_size": 1759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1457,
+								1457
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mano.py",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 365.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/cristian/workspace/django_lab/mysite/_sublime_text/mysite_djangoBook.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true
+}

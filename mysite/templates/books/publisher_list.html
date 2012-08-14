@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Publishers{% endblock %}
+
+{% block content %}
+	<h2>Publishers</h2>
+	<hr>
+	<ul>	
+	{% for publisher in object_list %}		
+		<li>
+			<p>
+				<a href="{{publisher.website}}" target="_blank">
+					<strong style="text-transform:capitalize">{{publisher.name}}</strong>
+				</a>
+				: 
+				{{publisher.address}}, 
+				{{publisher.city}},  
+				{{publisher.state_province}}, 
+				{{publisher.country}}, 
+			</p>
+			<hr>
+		</li>	
+	{% endfor %}
+	</ul>
+{% endblock %}
+
+	

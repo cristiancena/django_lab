@@ -12,10 +12,11 @@ class Publisher(models.Model):
 	country 		= models.CharField(max_length=50)
 	website 		= models.URLField()
 	#headshot 		= models.ImageField(upload_to='tmp')
-	def __str__(self):
+	def __unicode__(self):
 		return self.name
-	class Admin:
-		list_display = ('name','city','website')
+	class Meta:
+		ordering = ['name']
+
 
 class Author(models.Model):
     salutation 		= models.CharField(max_length=10)

@@ -19,3 +19,7 @@ def hours_ahead(request, offset):
 	dt = datetime.datetime.now() + datetime.timedelta(hours=offset)
 	#html = "<html><body>In %s hour(s), it will be %s</body><html>" % (offset, dt)
 	return render_to_response('hours_ahead.html',{'hour_offset':offset, 'next_time': dt})
+
+def debug(request):
+	msj = "esta vista solo funciona cuando settings se encuentra en modo debug"
+	return render_to_response('debuginfo.html',{'msj':msj})

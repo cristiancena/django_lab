@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Busqueda {% if query %}Results{% endif %}{% endblock %}
+
+{% block content %}
+	<h1>Busqueda</h1>
+	<form action="." method="GET"> <!-- el . hace referencia a la url actual-->
+		<label for="q">Buscar: </label>
+		<input type="text" name="q" value="{{ query|escape }}"></input> <!-- volvemos a insertar el texto de la consulta para permitir refinar facilmente la misma-->
+		<input type="submit" value="Buscar"></input>
+	</form>
+	
+	{% if query %}
+		<!-- el filtro escape nos asegura que descartará las busquedas maliciosas -->
+		<h2>Resultados para "{{ query|escape }}":</h2>
+		{% if results %}
+			<ul>
+				{% for book in results %}
+				<li>{{ book|escape }} {{ author }}</li>
+				{% endfor %}
+			</ul>
+		{% else%}
+			<p>No se encontraron libros</p>
+		{% endif %}
+	{% endif %}
+{% endblock %}
+
+	
